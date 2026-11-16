@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verano Rosa · Florería y regalos</title>
+  <meta name="description" content="Verano Rosa: ramos, arreglos florales, cajas de regalo y detalles para hacer especial lo cotidiano. Tienda demostrativa.">
+  <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Íconos -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-cart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M3 4h2l2.4 11.2a1.5 1.5 0 0 0 1.5 1.2h8.7a1.5 1.5 0 0 0 1.5-1.1L21 8H6.2M9.5 20.5h.01M17.5 20.5h.01"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15ZM16 16l5 5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M12 20s-7.5-4.6-9-9.6C2 6.9 4.3 4 7.4 4c2 0 3.6 1.2 4.6 2.8C13 5.2 14.6 4 16.6 4 19.7 4 22 6.9 21 10.4 19.5 15.4 12 20 12 20Z"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM3.5 21c1.2-4 4.4-6 8.5-6s7.3 2 8.5 6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M5 5l14 14M19 5L5 19"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M2 6h12v10H2zM14 9h4l3 3.5V16h-7M6 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm11 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M5 19C5 10 11 4 20 4c0 9-6 15-15 15Zm0 0 8-8"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M3 6h18v12H3zM3 6l9 7 9-7"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6l-8-3Zm-3.5 9 2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3 1 2.6 1.1 2.8.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 21s-7-6-7-11a7 7 0 1 1 14 0c0 5-7 11-7 11Zm0-8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M3 5h18v14H3zM3 5l9 8 9-8"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0-13v4.5l3 2"/></symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm5 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm5.5-9.5h.01"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M4 10h16v10H4zM3 7h18v3H3zM12 7v13M12 7c-1-3-5-4-5-1.5S12 7 12 7Zm0 0c1-3 5-4 5-1.5S12 7 12 7Z"/></symbol>
+  </svg>
+
+  <div class="topbar">
+    <div class="topbar__track">
+      <span>🌸 Envío gratis en compras desde $1,499</span>
+      <span>Entrega el mismo día en pedidos antes de las 3:00 pm</span>
+      <span>Tarjeta con mensaje sin costo en todos los pedidos</span>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container header__row">
+      <button class="icon-btn header__menu" data-action="open-menu" aria-label="Abrir menú"><svg><use href="#i-menu"/></svg></button>
+      <a href="#/" class="brand" aria-label="Verano Rosa, inicio">
+        <img src="/img/logo.svg" alt="" class="brand__logo" width="52" height="52">
+        <span class="brand__text"><b>VERANO ROSA</b><small>Florería y regalos</small></span>
+      </a>
+      <form class="search" data-form="search" role="search">
+        <svg><use href="#i-search"/></svg>
+        <input type="search" name="q" placeholder="Busca rosas, peluches, cajas de regalo…" aria-label="Buscar productos">
+      </form>
+      <nav class="header__icons" aria-label="Accesos">
+        <a href="#/mis-pedidos" class="icon-btn hide-sm" title="Mis pedidos" aria-label="Mis pedidos"><svg><use href="#i-user"/></svg></a>
+        <a href="#/favoritos" class="icon-btn" title="Favoritos" aria-label="Favoritos"><svg><use href="#i-heart"/></svg><span class="bubble" data-fav-count hidden>0</span></a>
+        <button class="icon-btn" data-action="open-cart" aria-label="Ver carrito"><svg><use href="#i-cart"/></svg><span class="bubble" data-cart-count hidden>0</span></button>
+      </nav>
+    </div>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <div class="nav__head">
+        <img src="/img/logo.svg" alt="" width="44" height="44"><b>Menú</b>
+        <button class="icon-btn" data-action="close-menu" aria-label="Cerrar menú"><svg><use href="#i-close"/></svg></button>
+      </div>
+      <ul class="container nav__list">
+        <li><a href="#/" data-nav="inicio">Inicio</a></li>
+        <li class="has-mega">
+          <a href="#/tienda" data-nav="tienda">Tienda</a>
+          <div class="mega" data-mega></div>
+        </li>
+        <li><a href="#/ocasiones" data-nav="ocasiones">Ocasiones especiales</a></li>
+        <li><a href="#/promociones" data-nav="promociones">Promociones</a></li>
+        <li><a href="#/personaliza" data-nav="personaliza">Personaliza tu regalo</a></li>
+        <li><a href="#/nosotros" data-nav="nosotros">Nosotros</a></li>
+        <li><a href="#/contacto" data-nav="contacto">Contacto</a></li>
+        <li class="nav-mobile-only"><a href="#/mis-pedidos">Mis pedidos</a></li>
+        <li class="nav-mobile-only"><a href="#/favoritos">Mis favoritos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="scrim" data-action="close-all" hidden></div>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#/" class="brand brand--footer"><img src="/img/logo.svg" alt="" width="64" height="64"><span class="brand__text"><b>VERANO ROSA</b><small>Para hacer especial lo cotidiano</small></span></a>
+        <p class="muted">Florería y tienda de regalos. Arreglos hechos a mano con flores frescas y entrega a domicilio.</p>
+        <div class="social">
+          <a href="#/contacto" aria-label="Instagram"><svg><use href="#i-insta"/></svg></a>
+          <a href="#/contacto" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+          <a href="#" data-whatsapp aria-label="WhatsApp"><svg><use href="#i-whatsapp"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Tienda</h4>
+        <ul data-footer-cats></ul>
+      </div>
+      <div>
+        <h4>Verano Rosa</h4>
+        <ul>
+          <li><a href="#/nosotros">Nosotros</a></li>
+          <li><a href="#/ocasiones">Ocasiones especiales</a></li>
+          <li><a href="#/personaliza">Personaliza tu regalo</a></li>
+          <li><a href="#/promociones">Promociones</a></li>
+          <li><a href="#/mis-pedidos">Rastrea tu pedido</a></li>
+          <li><a href="#/panel">Panel demostrativo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul class="contact-list">
+          <li><svg><use href="#i-pin"/></svg>Av. de las Flores 123, Col. Jardines, CDMX</li>
+          <li><svg><use href="#i-phone"/></svg>55 1234 5678</li>
+          <li><svg><use href="#i-mail"/></svg>hola@veranorosa.mx</li>
+          <li><svg><use href="#i-clock"/></svg>Lun a Sáb 9:00 – 20:00 · Dom 10:00 – 15:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© 2026 Verano Rosa · Proyecto escolar demostrativo. Precios ilustrativos; no se realizan cobros ni entregas reales.</span>
+      <span class="pay-icons" aria-label="Formas de pago ilustrativas">VISA · Mastercard · OXXO · SPEI</span>
+    </div>
+  </footer>
+
+  <aside class="drawer" id="cart-drawer" aria-label="Carrito" aria-hidden="true">
+    <div class="drawer__head">
+      <h3>Tu carrito</h3>
+      <button class="icon-btn" data-action="close-all" aria-label="Cerrar carrito"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <div class="drawer__body" data-drawer-body></div>
+  </aside>
+
+  <a class="wa-float" href="#" data-whatsapp aria-label="Escríbenos por WhatsApp"><svg><use href="#i-whatsapp"/></svg><span>¿Te ayudamos?</span></a>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

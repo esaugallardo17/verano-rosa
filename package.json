@@ -1,0 +1,9 @@
+{
+  "name": "verano-rosa",
+  "version": "1.0.0",
+  "description": "Tienda demostrativa de florería y regalos Verano Rosa",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "license": "UNLICENSED",
+  "private": true
+}

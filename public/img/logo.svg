@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Verano Rosa">
+  <defs>
+    <path id="top" d="M 36.5 118 A 66 66 0 1 1 163.5 118"/>
+    <path id="bottom" d="M 25 112 A 76 76 0 0 0 175 112"/>
+    <radialGradient id="petal" cx="50%" cy="85%" r="80%">
+      <stop offset="0" stop-color="#d9607e"/>
+      <stop offset=".55" stop-color="#ec8fa6"/>
+      <stop offset="1" stop-color="#f7bccb"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="97" fill="#fbeef1"/>
+  <circle cx="100" cy="100" r="93" fill="none" stroke="#a3485f" stroke-width="2"/>
+  <circle cx="100" cy="100" r="58" fill="none" stroke="#a3485f" stroke-width="1" opacity=".55"/>
+  <text font-family="Cormorant Garamond, Georgia, serif" font-size="22" font-weight="600" letter-spacing="2.2" fill="#a3485f">
+    <textPath href="#top" startOffset="50%" text-anchor="middle">VERANO ROSA</textPath>
+  </text>
+  <text font-family="Jost, Helvetica, Arial, sans-serif" font-size="8.4" font-weight="500" letter-spacing="1.4" fill="#a3485f">
+    <textPath href="#bottom" startOffset="50%" text-anchor="middle">PARA HACER ESPECIAL LO COTIDIANO</textPath>
+  </text>
+  <g fill="#a3485f">
+    <path d="M14 116l2.6-5.4 2.6 5.4-2.6 5.4z"/>
+    <path d="M180.8 116l2.6-5.4 2.6 5.4-2.6 5.4z"/>
+  </g>
+  <!-- hibisco -->
+  <g transform="translate(100 104)">
+    <g fill="url(#petal)" stroke="#d26a85" stroke-width=".8">
+      <path id="p" d="M0 0 C -15 -8 -20 -30 -8 -40 C -2 -45 6 -44 10 -38 C 18 -28 12 -8 0 0 Z"/>
+      <use href="#p" transform="rotate(72)"/>
+      <use href="#p" transform="rotate(144)"/>
+      <use href="#p" transform="rotate(216)"/>
+      <use href="#p" transform="rotate(288)"/>
+    </g>
+    <g stroke="#c2506d" stroke-width=".7" fill="none" opacity=".7">
+      <path d="M0 0 L -2 -30"/><path d="M0 0 L 26 -12"/><path d="M0 0 L 18 24"/><path d="M0 0 L -18 24"/><path d="M0 0 L -28 -8"/>
+    </g>
+    <circle r="5" fill="#b8405f"/>
+    <path d="M0 -2 C 6 -12 12 -20 20 -26" stroke="#b8405f" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <g fill="#c99a3e"><circle cx="20" cy="-27" r="2.2"/><circle cx="16" cy="-28" r="1.6"/><circle cx="22" cy="-23" r="1.6"/><circle cx="12" cy="-22" r="1.4"/></g>
+  </g>
+</svg>

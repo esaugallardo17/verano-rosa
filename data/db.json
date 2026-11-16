@@ -1,0 +1,81 @@
+{
+  "sessions": {
+    "10cd6cce-f0dd-491e-821a-337d0649c096": {
+      "createdAt": "2026-11-16T00:04:56.419Z",
+      "cart": [],
+      "favorites": [],
+      "lastSeen": "2026-11-16T00:04:56.420Z"
+    },
+    "c4e5ce10-a4d1-4fef-8935-ad8560ae7c72": {
+      "createdAt": "2026-11-16T00:04:56.421Z",
+      "cart": [],
+      "favorites": [],
+      "lastSeen": "2026-11-16T00:04:56.421Z"
+    },
+    "b4bf1e91-5d64-4f00-8378-2b69fc387959": {
+      "createdAt": "2026-11-16T00:04:56.422Z",
+      "cart": [],
+      "favorites": [],
+      "lastSeen": "2026-11-16T00:04:56.422Z"
+    },
+    "46bf47cf-50f5-4911-ac4f-df8286894067": {
+      "createdAt": "2026-11-16T00:04:56.423Z",
+      "cart": [],
+      "favorites": [],
+      "lastSeen": "2026-11-16T00:04:56.424Z"
+    },
+    "96f9d334-89a5-4f97-9d46-71f7651fd777": {
+      "createdAt": "2026-11-16T00:05:46.189Z",
+      "cart": [],
+      "favorites": [],
+      "lastSeen": "2026-11-16T00:05:46.190Z"
+    },
+    "c51abaf1-1482-4913-a2d6-5dfeb5c17b36": {
+      "createdAt": "2026-11-16T00:05:46.191Z",
+      "cart": [],
+      "favorites": [],
+      "lastSeen": "2026-11-16T00:05:46.191Z"
+    },
+    "741d01a8-5c79-453d-b47e-d3a5d50e250c": {
+      "createdAt": "2026-11-16T00:05:46.192Z",
+      "cart": [],
+      "favorites": [],
+      "lastSeen": "2026-11-16T00:05:46.193Z"
+    },
+    "a87368eb-9fc0-4c9e-a899-ac6f2194e792": {
+      "createdAt": "2026-11-16T00:05:46.193Z",
+      "cart": [
+        {
+          "lineId": "0899d8b7",
+          "custom": true,
+          "productId": "custom",
+          "name": "Regalo personalizado: Ramo de peonías",
+          "details": "Rosa palo · Grande",
+          "image": "/img/marca/ramo.jpg",
+          "addons": [
+            "tarjeta-premium"
+          ],
+          "addonNames": [
+            "Tarjeta premium"
+          ],
+          "unitPrice": 1751,
+          "qty": 1
+        },
+        {
+          "lineId": "884b90e8",
+          "productId": "caja-firma",
+          "name": "Caja Firma Verano Rosa",
+          "image": "/img/marca/caja.jpg",
+          "addons": [],
+          "addonNames": [],
+          "unitPrice": 1150,
+          "qty": 1
+        }
+      ],
+      "favorites": [],
+      "lastSeen": "2026-11-16T00:08:17.811Z"
+    }
+  },
+  "orders": [],
+  "messages": []
+}
